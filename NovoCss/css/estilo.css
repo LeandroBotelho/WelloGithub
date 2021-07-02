@@ -1,0 +1,58 @@
+body{
+   margin: 0 auto;
+   max-width: 960px;
+   font-family: Verdana, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: rgb(149, 233, 229);
+}
+
+.nav_bar{
+   background-color: yellow;
+   height: 125px;
+}
+
+.menu{
+    float: right;
+    margin-right: 20px;
+}
+
+.menu ul li {
+    list-style: none;
+    position: relative;
+    float: left;
+}
+
+.menu li a{
+    text-decoration:none;
+    font-size: 20px;
+    color: #FF4500;
+    padding: 30px 30px;
+    display:block;
+}
+
+.menu li a:hover {
+    background-color:red;
+    color:white;
+     border-radius: 20px;
+}
+
+.banner_princ{
+    max-width: 960;
+    margin: 0 auto;
+    text-align: center;
+ }
+
+ .imagens{
+     height: 300px;
+     margin-top: 30px;
+     background-color: rgb(238, 253, 27);
+ }
+
+ .games{
+     text-decoration-color: lightgray;
+     margin: 0px;
+     float: left;
+     background-color: lawngreen;
+ }
